@@ -66,6 +66,17 @@ body{
   margin-top: -30px;
 }
 
+.container .jumbotron {
+	box-shadow: 0 0 50px #F47B20;
+  	border: 2px solid #F47B20 ;
+}
+
+@media (min-width: 1200px) {
+	.container .jumbotron {
+		background: url(woff1200-01.jpg) no-repeat;
+		height: 675px;
+	}
+}
 @media (min-width: 992px) and (max-width: 1199px) {
  .navbar-brand h1{
  	font-size: 1.8em;
@@ -84,6 +95,10 @@ body{
     height: 100px;
     margin: 5px 5px 5px 0;
 }
+.container .jumbotron {
+		background: url(woff992-01.jpg) no-repeat;
+		height: 586px;
+	}
  }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -99,6 +114,11 @@ body{
   font-size: 1.2em;
   margin-top: 0px;
 }
+ .container .jumbotron {
+		background: url(woff768-01.jpg) no-repeat;
+		height: 450px;
+	}
+
 }
 
 @media (max-width: 767px){
@@ -107,10 +127,30 @@ body{
  		margin-top: 0px
 	}
 #nav-list a {
-	font-size: 1.7em
+	font-size: 1.2em
 }
 #nav-list a span {
 	font-size: 1em;
 	margin-right: 5px;
 }
+  #call-btn > a {
+    font-size: 1.2em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #F47B20;
+    color: #8600b3;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .9em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #557c3e;
+  }
+  .container .jumbotron{
+  	margin-top: 30px;
+  	padding: 0;
+  }
 }
